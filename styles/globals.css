@@ -101,7 +101,7 @@ td {
 
 .containers {
   position: relative;
-  max-width: 960px;
+  max-width: 1040px;
   padding: 70px;
   padding-left: 100px;
   margin: 100px auto;
@@ -125,7 +125,7 @@ td {
 
 .containers .kanan {
   flex: 1;
-  padding-right: 30px;
+  /* padding-right: 30px; */
 }
 
 .containers .nama__profile {
