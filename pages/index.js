@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import profile from '../public/images/profil.jpg'
+import web from '../public/images/web.png'
+import instagram from '../public/images/instagram.png'
+import github from '../public/images/github.png'
+import linkedin from '../public/images/linkedin.png'
 
 export default function Home() {
   return (
@@ -19,24 +23,24 @@ export default function Home() {
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
 
         <script
           src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
           integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-          crossorigin="anonymous"
-        ></script>
+          crossOrigin="anonymous"
+        />
         <script
           src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
           integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-          crossorigin="anonymous"
-        ></script>
+          crossOrigin="anonymous"
+        />
         <script
           src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
           integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-          crossorigin="anonymous"
-        ></script>
+          crossOrigin="anonymous"
+        />
       </Head>
 
       <main>
@@ -44,14 +48,14 @@ export default function Home() {
           <div className="row kanan">
             <div className="col-md-6">
               <div className="image">
-                <Image src={profile} />
+                <Image src={profile} alt="profile" />
               </div>
-              <div class="nama">
-                <h1 class="nama__profile">MUHAMMAD ILYAS</h1>
-                <h3 class="pekerjaan">FULLSTACK DEVELOPER</h3>
-                <h4 class="location mt-2">Location : South Tangerang</h4>
+              <div className="nama">
+                <h1 className="nama__profile">MUHAMMAD ILYAS</h1>
+                <h3 className="pekerjaan">FULLSTACK DEVELOPER</h3>
+                <h4 className="location mt-2">Location : South Tangerang</h4>
               </div>
-              <div class="summary">
+              <div className="summary">
                 <h2>SUMMARY</h2>
                 <p>
                   I am a Fullstack Developer, an ambitious problem solver with a
@@ -66,11 +70,11 @@ export default function Home() {
                   continuing to learn new languages and development techniques.
                 </p>
               </div>
-              <div class="skill">
+              <div className="skill">
                 <h2>PERSONAL SKILLS</h2>
                 <table width="100%">
                   <thead>
-                    <th colspan="4">FRONTEND</th>
+                    <th colSpan="4">FRONTEND</th>
                   </thead>
                   <tbody>
                     <tr>
@@ -90,7 +94,7 @@ export default function Home() {
                 <br />
                 <table width="100%">
                   <thead>
-                    <th colspan="4">BACKEND</th>
+                    <th colSpan="4">BACKEND</th>
                   </thead>
                   <tbody>
                     <tr>
@@ -108,7 +112,7 @@ export default function Home() {
                 <br />
                 <table width="100%">
                   <thead>
-                    <th colspan="4">VERSION CONTROL & DEPLOYMENT</th>
+                    <th colSpan="4">VERSION CONTROL & DEPLOYMENT</th>
                   </thead>
                   <tbody>
                     <tr>
@@ -124,7 +128,7 @@ export default function Home() {
                   </tbody>
                 </table>
               </div>
-              <div class="contact">
+              <div className="contact">
                 <h2>REACH ME AT</h2>
                 <b>Phone Number</b>
                 <p>+62 822 6961 6558</p>
@@ -132,7 +136,7 @@ export default function Home() {
                 <p>muhammadilyassaya@gmail.com</p>
               </div>
 
-              <div class="social">
+              <div className="social">
                 <h2>SOCIAL MEDIA</h2>
                 <table width="100%">
                   <thead>
@@ -147,8 +151,16 @@ export default function Home() {
                         <a
                           href="https://milyas26.github.io/cv/"
                           target="_blank"
+                          rel="noreferrer"
                         >
-                          <img class="image_icon" src="/images/web.png" />
+                          <Image
+                            width={50}
+                            height={50}
+                            alt="image"
+                            className="image_icon"
+                            // src="/images/web.png"
+                            src={web}
+                          />
                         </a>
                       </td>
 
@@ -156,21 +168,48 @@ export default function Home() {
                         <a
                           href="https://www.instagram.com/26mill_/"
                           target="_blank"
+                          rel="noreferrer"
                         >
-                          <img class="image_icon" src="/images/instagram.png" />
+                          <Image
+                            width={50}
+                            height={50}
+                            alt="image"
+                            className="image_icon"
+                            // src="/images/instagram.png"
+                            src={instagram}
+                          />
                         </a>
                       </td>
                       <td className="text-center py-3 px-3">
-                        <a href="https://github.com/milyas26" target="_blank">
-                          <img class="image_icon" src="/images/github.png" />
+                        <a
+                          href="https://github.com/milyas26"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <Image
+                            width={50}
+                            height={50}
+                            alt="image"
+                            className="image_icon"
+                            // src="/images/github.png"
+                            src={github}
+                          />
                         </a>
                       </td>
                       <td className="text-center py-3 px-3">
                         <a
                           href="https://www.linkedin.com/in/muhilyas/"
                           target="_blank"
+                          rel="noreferrer"
                         >
-                          <img class="image_icon" src="/images/linkedin.png" />
+                          <Image
+                            width={50}
+                            height={50}
+                            alt="image"
+                            className="image_icon"
+                            // src="/images/linkedin.png"
+                            src={linkedin}
+                          />
                         </a>
                       </td>
                     </tr>
@@ -179,12 +218,12 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-6">
-              <div class="academic">
+              <div className="academic">
                 <h2>ACADEMIC HISTORY</h2>
 
-                <div class="training">
+                <div className="training">
                   <h3>TRAINING</h3>
-                  <div class="bootcamp">
+                  <div className="bootcamp">
                     <h4>BOOTCAMP DUMBWAYS INDONESIA</h4>
                     <i>November 2020 - December 2020</i>
                     <ul>
@@ -201,9 +240,9 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="courses">
+                <div className="courses">
                   <h3>COURSES</h3>
-                  <div class="fullstack_javascript">
+                  <div className="fullstack_javascript">
                     <h4>
                       FULLSTACK JAVASCRIPT DEVELOPER & FULLSTACK REACT NATIVE
                       DEVELOPER | BuildWith Angga
@@ -226,7 +265,7 @@ export default function Home() {
                     </ul>
                   </div>
 
-                  <div class="web_development">
+                  <div className="web_development">
                     <h4>THE COMPLETE 2020 WEB DEVELOPMENT | Udemy</h4>
                     <i>April 2020 - June 2020</i>
                     <ul>
@@ -244,21 +283,21 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="formal_education">
+                <div className="formal_education">
                   <h3>FORMAL EDUCATION</h3>
-                  <div class="siber_asia">
+                  <div className="siber_asia">
                     <h4>ASIAN CYBER UNIVERSITY | Teknik Informatika</h4>
                     <em>March 2021 - March 2024</em>
                   </div>
-                  <div class="sma">
+                  <div className="sma">
                     <h4>SMAN 02 MUKOMUKO | Ilmu Pengetahuan Alam</h4>
                     <i>April 2014 - April 2017</i>
                   </div>
                 </div>
               </div>
-              <div class="experiences">
+              <div className="experiences">
                 <h2>WORK EXPERIENCES</h2>
-                <div class="dvoretsky">
+                <div className="dvoretsky">
                   <h4>DVORETSKY GROUP | Fullstack Developer</h4>
                   <i>Software House | February 2021 - Now</i>
                   <ul>
@@ -279,7 +318,7 @@ export default function Home() {
                     </li>
                   </ul>
                 </div>
-                <div class="freelance">
+                <div className="freelance">
                   <h4>FIVERR | Freelance Web Developer</h4>
                   <i>January 2020 - October 2020</i>
                   <ul>
@@ -300,6 +339,7 @@ export default function Home() {
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
+          rel="noreferrer"
           rel="noopener noreferrer"
         >
           Powered by{' '}
