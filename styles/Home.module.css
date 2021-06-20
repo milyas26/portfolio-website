@@ -1,11 +1,10 @@
-/* .container {
+.container {
   min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-width: 960px;
+  margin: auto;
+  padding: 0 30px;
 }
+/* 
 
 .main {
   padding: 5rem 0;
