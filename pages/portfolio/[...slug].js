@@ -21,7 +21,7 @@ const index = () => {
       </div>
       <h1 className="h3 font-weight-bold text-dark">{portfolio?.name}</h1>
       <div className="desc mb-5">
-        <p className="font-weight-bold">
+        <p className="font-weight-bold" style={{ fontSize: 16 }}>
           Role : <span className="badge badge-info">{portfolio?.role}</span>
         </p>
         <b>Stacks :</b>
