@@ -204,7 +204,7 @@ const portfolios = [
     stacks: [
       {
         id: 1,
-        stack: 'Laravel',
+        stack: 'laravel',
       },
       {
         id: 2,
@@ -229,7 +229,7 @@ const portfolios = [
     stacks: [
       {
         id: 1,
-        stack: 'Laravel',
+        stack: 'laravel',
       },
       {
         id: 2,
@@ -254,7 +254,7 @@ const portfolios = [
     stacks: [
       {
         id: 1,
-        stack: 'Laravel',
+        stack: 'laravel',
       },
       {
         id: 2,
@@ -284,7 +284,7 @@ const portfolios = [
     stacks: [
       {
         id: 1,
-        stack: 'Laravel',
+        stack: 'laravel',
       },
       {
         id: 2,
