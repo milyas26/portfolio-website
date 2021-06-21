@@ -10,6 +10,7 @@ const index = () => {
           name="description"
           content="Personal portfolio website Muhammad Ilyas"
         />
+        <meta name="image" content="/images/preview.PNG" key="image" />
         {/* Open Graph */}
         <meta property="og:url" content="milyas.vercel.app" key="ogurl" />
         <meta property="og:image" content="/images/preview.PNG" key="ogimage" />
