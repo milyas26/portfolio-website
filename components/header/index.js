@@ -83,7 +83,7 @@ const index = () => {
                 </Link>
               </li>
               <li class="nav-item mb-0 d-flex align-items-center active">
-                <Link href="/portfolios">
+                <Link href="/portfolio">
                   <a class="nav-link">PORTFOLIO</a>
                 </Link>
               </li>
