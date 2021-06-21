@@ -39,19 +39,60 @@ const index = () => {
           crossOrigin="anonymous"
         />
       </Head>
-      <div className="mt-5 pt-4 header-menus" style={{ maxWidth: 1000 }}>
-        {/* <ul className="d-flex header-list" style={{ listStyle: 'none' }}>
-          <li className="mr-3 btn btn-primary">
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li className="mr-3 btn btn-primary">
-            <Link href="/portfolios">
-              <a>Portfolio</a>
-            </Link>
-          </li>
-        </ul> */}
+      <div style={{ maxWidth: 1000 }}>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <Link href="/">
+            <a class="navbar-brand">M. ILYAS</a>
+          </Link>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse align-item-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mb-0 d-flex align-items-center active">
+                <Link href="/">
+                  <a class="nav-link">HOME</a>
+                </Link>
+              </li>
+              <li class="nav-item mb-0 d-flex align-items-center active">
+                <Link href="/portfolios">
+                  <a class="nav-link">PORTFOLIO</a>
+                </Link>
+              </li>
+              {/* <li class="nav-item mb-0 d-flex align-items-center active">
+                <Link href="/blog">
+                  <a class="nav-link">BLOG</a>
+                </Link>
+              </li>
+              <li class="nav-item mb-0 d-flex align-items-center active">
+                <Link href="/contact">
+                  <a class="nav-link">CONTACT</a>
+                </Link>
+              </li> */}
+              <li class="nav-item mb-0 d-flex align-items-center active">
+                <a
+                  href="/cv.pdf"
+                  target="_blank"
+                  class="nav-link btn btn-info btn-block"
+                >
+                  DOWNLOAD CV
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </>
   )

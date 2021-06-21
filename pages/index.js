@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import profile from '../public/images/profil.jpg'
 import whatsapp from '../public/images/whatsapp.png'
 import instagram from '../public/images/instagram.png'
@@ -269,7 +268,7 @@ export default function Home() {
                 <ul>
                   <li>
                     Build feature rich website using Laravel, frontend framework
-                    using Bootatrap, MySQL for database management, and other
+                    using Bootstrap, MySQL for database management, and other
                     technologies.
                   </li>
                   <li>

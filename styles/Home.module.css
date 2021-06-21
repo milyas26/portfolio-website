@@ -1,19 +1,9 @@
 .container {
   min-height: 100vh;
   max-width: 1010px;
-  margin: auto;
+  margin: 30px auto;
   padding: 0 30px;
 }
-/* 
-
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 
 .footer {
   width: 100%;
@@ -115,5 +105,11 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin: 0;
   }
 }

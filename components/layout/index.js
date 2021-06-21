@@ -8,7 +8,7 @@ const index = (props) => {
   return (
     <div className={styles.container}>
       <Header />
-      <main>{children}</main>
+      <main style={{ minHeight: '70vh' }}>{children}</main>
       <Footer />
     </div>
   )
