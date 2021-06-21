@@ -10,6 +10,21 @@ const index = () => {
           name="description"
           content="Personal portfolio website Muhammad Ilyas"
         />
+        {/* Open Graph */}
+        <meta property="og:url" content="milyas.vercel.app" key="ogurl" />
+        <meta property="og:image" content="/images/preview.PNG" key="ogimage" />
+        <meta
+          property="og:site_name"
+          content="Portfolio  Website"
+          key="ogsitename"
+        />
+        <meta property="og:title" content="Portfolio" key="ogtitle" />
+        <meta
+          property="og:description"
+          content="Muhammad Ilyas personal portfolio website"
+          key="ogdesc"
+        />
+
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
