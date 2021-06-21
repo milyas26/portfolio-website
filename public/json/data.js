@@ -32,27 +32,27 @@ const portfolios = [
   {
     id: 7,
     name: 'Parama Hotel',
-    thumbnail: '/images/portfolio/wayshub/wayshub.png',
+    thumbnail: '/images/portfolio/parama/parama.png',
   },
   {
     id: 8,
     name: 'Jakodes',
-    thumbnail: '/images/portfolio/wayshub/wayshub.png',
+    thumbnail: '/images/portfolio/jakodes/jakodes.png',
   },
   {
     id: 9,
     name: 'Untung Lagi',
-    thumbnail: '/images/portfolio/wayshub/wayshub.png',
+    thumbnail: '/images/portfolio/untung-lagi/untung-lagi.png',
   },
-  {
-    id: 10,
-    name: 'Tweak Indonesia',
-    thumbnail: '/images/portfolio/wayshub/wayshub.png',
-  },
+  // {
+  //   id: 10,
+  //   name: 'Tweak Indonesia',
+  //   thumbnail: '/images/portfolio/wayshub/wayshub.png',
+  // },
   {
     id: 11,
     name: 'E-Psikolog',
-    thumbnail: '/images/portfolio/wayshub/wayshub.png',
+    thumbnail: '/images/portfolio/e-psikolog/e-psikolog.png',
   },
 ]
 

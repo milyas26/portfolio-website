@@ -58,7 +58,7 @@ const index = () => {
       <div style={{ maxWidth: 1000 }}>
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
           <Link href="/">
-            <a class="navbar-brand">M. ILYAS</a>
+            <a class="navbar-brand font-weight-bold">M. ILYAS</a>
           </Link>
           <button
             class="navbar-toggler"
