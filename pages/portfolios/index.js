@@ -24,7 +24,7 @@ const index = () => {
                   the bulk of the card's content.
                 </p>
                 <a href="#" class="btn btn-primary btn-block">
-                  Go somewhere
+                  Detail Project
                 </a>
               </div>
             </div>
