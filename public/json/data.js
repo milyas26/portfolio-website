@@ -164,7 +164,7 @@ const portfolios = [
     slug: 'menarini',
     thumbnail: '/images/portfolio/menarini/menarini.png',
     link: {
-      type: 'Production',
+      type: 'Development',
       url: '',
     },
     role: 'Frontend',
@@ -222,7 +222,7 @@ const portfolios = [
     slug: 'jakodes',
     thumbnail: '/images/portfolio/jakodes/jakodes.png',
     link: {
-      type: 'Private Website',
+      type: 'Private',
       url: '',
     },
     role: 'Fullstack',
@@ -247,7 +247,7 @@ const portfolios = [
     slug: 'untung-lagi',
     thumbnail: '/images/portfolio/untung-lagi/untung-lagi.png',
     link: {
-      type: 'Private Website',
+      type: 'Private',
       url: '',
     },
     role: 'Fullstack',
@@ -277,7 +277,7 @@ const portfolios = [
     slug: 'e-psikolog',
     thumbnail: '/images/portfolio/e-psikolog/e-psikolog.png',
     link: {
-      type: 'Private Website',
+      type: 'Private',
       url: '',
     },
     role: 'Fullstack',
