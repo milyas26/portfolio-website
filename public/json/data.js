@@ -164,8 +164,8 @@ const portfolios = [
     slug: 'menarini',
     thumbnail: '/images/portfolio/menarini/menarini.png',
     link: {
-      type: 'Development',
-      url: '',
+      type: 'Website',
+      url: 'https://menarinistore.id/',
     },
     role: 'Frontend',
     stacks: [
