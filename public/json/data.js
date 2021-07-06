@@ -296,6 +296,31 @@ const portfolios = [
       },
     ],
   },
+  {
+    id: 12,
+    name: 'The Lavande Apartment',
+    slug: 'the-lavande-apartment',
+    thumbnail: '/images/portfolio/lavande/lavande.png',
+    link: {
+      type: 'Website',
+      url: 'https://apartment-thelavande-residence.id/',
+    },
+    role: 'Fullstack',
+    stacks: [
+      {
+        id: 1,
+        stack: 'laravel',
+      },
+      {
+        id: 2,
+        stack: 'Bootstrap',
+      },
+      {
+        id: 3,
+        stack: 'Jquery',
+      },
+    ],
+  },
 ]
 
 export function getAllPortfolios() {
