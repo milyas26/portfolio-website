@@ -9,7 +9,6 @@ const index = () => {
   const { slug } = router.query
   const portfolio = getPortfolioBySlug(slug)
 
-  console.log(portfolio)
   return (
     <Layout>
       <div className="image my-4">
@@ -31,6 +30,7 @@ const index = () => {
               src={`/images/stacks/${stack.stack}.png`}
               style={{ height: 30 }}
               className="mr-3"
+              key={stack.id}
             />
           ))}
         </div>

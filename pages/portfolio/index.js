@@ -12,14 +12,14 @@ const index = () => {
       <div className="portfolios row mt-4">
         {portfolios.map((item) => (
           <div className="col-md-6 mb-4" key={item.id}>
-            <div class="card">
+            <div className="card">
               <img
-                class="card-img-top px-4 pt-4"
+                className="card-img-top px-4 pt-4"
                 src={item.thumbnail}
                 alt="Thumbnail"
               />
-              <div class="card-body">
-                <h5 class="card-title font-weight-bold">{item.name}</h5>
+              <div className="card-body">
+                <h5 className="card-title font-weight-bold">{item.name}</h5>
                 <b>Stacks :</b>
                 <div className="stacks mt-2 mb-4">
                   {item?.stacks.map((stack) => (
@@ -27,11 +27,12 @@ const index = () => {
                       src={`/images/stacks/${stack.stack}.png`}
                       style={{ height: 30 }}
                       className="mr-3"
+                      key={stack.id}
                     />
                   ))}
                 </div>
                 <Link href={`/portfolio/${item.slug}`}>
-                  <a class="btn btn-primary btn-block">Lihat Detail</a>
+                  <a className="btn btn-primary btn-block">Lihat Detail</a>
                 </Link>
               </div>
             </div>

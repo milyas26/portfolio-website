@@ -64,12 +64,12 @@ const index = () => {
         />
       </Head>
       <div style={{ maxWidth: 1000 }}>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <nav className="navbar navbar-expand-sm navbar-light bg-light">
           <Link href="/">
-            <a class="navbar-brand font-weight-bold">M. ILYAS</a>
+            <a className="navbar-brand font-weight-bold">M. ILYAS</a>
           </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -77,39 +77,39 @@ const index = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
 
           <div
-            class="collapse navbar-collapse align-item-center"
+            className="collapse navbar-collapse align-item-center"
             id="navbarSupportedContent"
           >
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item mb-0 d-flex align-items-center active">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item mb-0 d-flex align-items-center active">
                 <Link href="/">
-                  <a class="nav-link">HOME</a>
+                  <a className="nav-link">HOME</a>
                 </Link>
               </li>
-              <li class="nav-item mb-0 d-flex align-items-center active">
+              <li className="nav-item mb-0 d-flex align-items-center active">
                 <Link href="/portfolio">
-                  <a class="nav-link">PORTFOLIO</a>
+                  <a className="nav-link">PORTFOLIO</a>
                 </Link>
               </li>
-              {/* <li class="nav-item mb-0 d-flex align-items-center active">
+              {/* <li className="nav-item mb-0 d-flex align-items-center active">
                 <Link href="/blog">
-                  <a class="nav-link">BLOG</a>
+                  <a className="nav-link">BLOG</a>
                 </Link>
               </li>
-              <li class="nav-item mb-0 d-flex align-items-center active">
+              <li className="nav-item mb-0 d-flex align-items-center active">
                 <Link href="/contact">
-                  <a class="nav-link">CONTACT</a>
+                  <a className="nav-link">CONTACT</a>
                 </Link>
               </li> */}
-              <li class="nav-item mb-0 d-flex align-items-center active">
+              <li className="nav-item mb-0 d-flex align-items-center active">
                 <a
                   href="/cv.pdf"
                   target="_blank"
-                  class="nav-link btn btn-info btn-block"
+                  className="nav-link btn btn-info btn-block"
                 >
                   DOWNLOAD CV
                 </a>
