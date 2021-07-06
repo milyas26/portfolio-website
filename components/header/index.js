@@ -107,7 +107,7 @@ const index = () => {
               </li> */}
               <li className="nav-item mb-0 d-flex align-items-center active">
                 <a
-                  href="/cv.pdf"
+                  href="/cv_1.pdf"
                   target="_blank"
                   className="nav-link btn btn-info btn-block"
                 >

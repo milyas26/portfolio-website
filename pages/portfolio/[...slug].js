@@ -1,8 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import Layout from '../../components/layout'
-import { getPortfolioBySlug, getAllPortfolios } from '../../public/json/data.js'
-import Image from 'next/image'
+import { getPortfolioBySlug } from '../../public/json/data.js'
 
 const index = () => {
   const router = useRouter()

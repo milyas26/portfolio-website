@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../../components/layout'
 import { getAllPortfolios } from '../../public/json/data.js'
 import Link from 'next/link'
-import Image from 'next/image'
 
 const index = () => {
   const portfolios = getAllPortfolios()

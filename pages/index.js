@@ -123,7 +123,6 @@ export default function Home() {
                           height={50}
                           alt="image"
                           className="image_icon"
-                          // src="/images/web.png"
                           src={whatsapp}
                         />
                       </a>
@@ -140,7 +139,6 @@ export default function Home() {
                           height={50}
                           alt="image"
                           className="image_icon"
-                          // src="/images/instagram.png"
                           src={instagram}
                         />
                       </a>
@@ -156,7 +154,6 @@ export default function Home() {
                           height={50}
                           alt="image"
                           className="image_icon"
-                          // src="/images/github.png"
                           src={github}
                         />
                       </a>
@@ -172,7 +169,6 @@ export default function Home() {
                           height={50}
                           alt="image"
                           className="image_icon"
-                          // src="/images/linkedin.png"
                           src={linkedin}
                         />
                       </a>
@@ -264,7 +260,7 @@ export default function Home() {
               <h2>WORK EXPERIENCES</h2>
               <div className="dvoretsky">
                 <h4>DVORETSKY GROUP | Fullstack Developer</h4>
-                <i>Software House | February 2021 - Now</i>
+                <i>Software House | February 2021 - July 2021</i>
                 <ul>
                   <li>
                     Build feature rich website using Laravel, frontend framework
@@ -284,8 +280,8 @@ export default function Home() {
                 </ul>
               </div>
               <div className="freelance">
-                <h4>FIVERR | Freelance Web Developer</h4>
-                <i>January 2020 - October 2020</i>
+                <h4>Self Employed | Freelance Web Developer</h4>
+                <i>January 2020 - Now</i>
                 <ul>
                   <li>
                     Build static website like company profile, portfolio

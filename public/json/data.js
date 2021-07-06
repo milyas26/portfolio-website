@@ -266,13 +266,8 @@ const portfolios = [
       },
     ],
   },
-  // {
-  //   id: 10,
-  //   name: 'Tweak Indonesia',
-  //   thumbnail: '/images/portfolio/wayshub/wayshub.png',
-  // },
   {
-    id: 11,
+    id: 10,
     name: 'E-Psikolog - Psychology Test Online',
     slug: 'e-psikolog',
     thumbnail: '/images/portfolio/e-psikolog/e-psikolog.png',
@@ -297,7 +292,7 @@ const portfolios = [
     ],
   },
   {
-    id: 12,
+    id: 11,
     name: 'The Lavande Apartment',
     slug: 'the-lavande-apartment',
     thumbnail: '/images/portfolio/lavande/lavande.png',
