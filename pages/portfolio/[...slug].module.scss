@@ -1,0 +1,184 @@
+.portfolio_name {
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.desc {
+    .role {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #000;
+    }
+    
+    .stacks {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #000;
+    }
+
+    .stacks_wrapper {
+        margin: 15px 0;
+        img {
+            margin-right: 20px;
+            height: 50px;
+        }
+    }
+
+    .description {
+        margin-bottom: 15px;
+        p {
+            font-size: 18px;
+
+            &.label {
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 24px;
+                color: #000;
+            }
+        }
+    }
+
+    .pekerjaan {
+        p {
+            font-size: 18px;
+            &.label {
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 24px;
+                color: #000;
+            }
+        }
+    }
+
+    .link {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #000;
+        text-align: left;
+        margin-bottom: 50px;
+
+        a {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 24px;
+            color: #000;
+            text-align: left;
+            word-wrap: break-word;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .portfolio_name {
+        font-size: 30px;
+    }
+
+    .desc {
+        .role {
+            font-size: 24px;
+        }
+
+        .stacks {
+            font-size: 24px;
+        }
+
+        .stacks_wrapper {
+            margin: 15px 0;
+            img {
+                margin-right: 20px;
+                height: 50px;
+            }
+        }
+
+        .description {
+            margin-bottom: 15px;
+
+            p {
+                font-size: 18px;
+
+                &.label {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .pekerjaan {
+            p {
+                font-size: 18px;
+
+                &.label {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .link {
+            font-size: 24px;
+
+            a {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .portfolio_name {
+        font-size: 24px;
+    }
+
+    .desc {
+        .role {
+            font-size: 20px;
+        }
+
+        .stacks {
+            font-size: 20px;
+        }
+
+        .stacks_wrapper {
+            margin: 10px 0;
+            img {
+                margin-right: 10px;
+                height: 40px;
+            }
+        }
+
+        .description {
+            margin-bottom: 15px;
+
+            p {
+                font-size: 16px;
+
+                &.label {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .pekerjaan {
+            p {
+                font-size: 16px;
+
+                &.label {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .link {
+            font-size: 20px;
+            text-align: left;
+
+            a {
+                font-size: 20px;
+                text-align: left;
+            }
+        }
+    }
+}

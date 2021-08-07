@@ -2,6 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import Layout from '../../components/layout'
 import { getPortfolioBySlug } from '../../public/json/data.js'
+import styles from './[...slug].module.scss'
 
 const index = () => {
   const router = useRouter()
@@ -17,28 +18,37 @@ const index = () => {
           alt={portfolio?.slug}
         />
       </div>
-      <h1 className="h3 font-weight-bold text-dark">{portfolio?.name}</h1>
-      <div className="desc mb-5">
-        <p className="font-weight-bold" style={{ fontSize: 16 }}>
-          Role : <span className="badge badge-info">{portfolio?.role}</span>
-        </p>
-        <b>Stacks :</b>
-        <div className="stacks mt-2 mb-4">
+      <h1 className={styles.portfolio_name}>{portfolio?.name}</h1>
+      <div className={styles.desc}>
+        <p className={styles.role}>Role : {portfolio?.role}</p>
+        <b className={styles.stacks}>Stacks :</b>
+        <div className={styles.stacks_wrapper}>
           {portfolio?.stacks.map((stack) => (
-            <img
-              src={`/images/stacks/${stack.stack}.png`}
-              style={{ height: 30 }}
-              className="mr-3"
-              key={stack.id}
-            />
+            <img src={`/images/stacks/${stack.stack}.png`} key={stack.id} />
           ))}
         </div>
-        <p>
-          {portfolio?.link.type} :{' '}
-          <a href={portfolio?.link.url} target="_blank">
-            {portfolio?.link.url}
-          </a>
-        </p>
+        <div className={styles.description}>
+          <p className={styles.label}>Deskripsi Website :</p>
+          <p>{portfolio?.description}</p>
+        </div>
+        <div className={styles.pekerjaan}>
+          <p className={styles.label}>Despripsi Pekerjaan :</p>
+          <ul>
+            {portfolio?.pekerjaan.map((task) => (
+              <li key={task.id}>
+                <p>{task.text}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+        {portfolio?.link && (
+          <p className={styles.link}>
+            {portfolio?.link.type} :{' '}
+            <a href={portfolio?.link.url} target="_blank">
+              {portfolio?.link.url}
+            </a>
+          </p>
+        )}
       </div>
     </Layout>
   )
