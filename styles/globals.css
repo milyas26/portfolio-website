@@ -214,10 +214,6 @@ td {
     box-shadow: none;
   }
 
-  .header-menus {
-    /* margin: 0 30px; */
-  }
-
   .containers::after {
     display: none;
   }
