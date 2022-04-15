@@ -558,6 +558,58 @@ const portfolios = [
       },
     ],
   },
+  {
+    id: 12,
+    name: "Dropshipedia",
+    slug: "dropshipedia",
+    thumbnail: "/images/portfolio/dropshipedia/dropshipedia.png",
+    link: {
+      type: "Website",
+      url: "https://dropshipedia.id/",
+    },
+    role: "Frontend",
+    description: "Dropshipedia merupakan platform para dropshiper.",
+    pekerjaan: [
+      {
+        id: 1,
+        text: "Melakukan konversi design figma yang sebelumnya telah dibuat oleh designer UI/UX menjadi halaman aplikasi web yang interaktif dengan menggunakan struktur atomic design, dan responsive untuk berbagai macam ukuran layar device.",
+      },
+      {
+        id: 2,
+        text: "Mengintegrasikan Rest API yang telah dibuat oleh developer backend agar menjadi sebuah aplikasi yang utuh, dengan menggunakan berbagai package atau dependensi frontend seperti Axios untuk fetch API, React Redux untuk state management, dan lain-lain.",
+      },
+      {
+        id: 4,
+        text: "Mengintegrasikan Real-time Chat menggunakan web socket Signal-R, dan membuat push notification dengan Firebase Cloud Messagging.",
+      },
+    ],
+    stacks: [
+      {
+        id: 1,
+        stack: "React-Js",
+      },
+      {
+        id: 2,
+        stack: "Redux",
+      },
+      {
+        id: 3,
+        stack: "SASS",
+      },
+      {
+        id: 4,
+        stack: "Bootstrap",
+      },
+      {
+        id: 5,
+        stack: "Firebase",
+      },
+      {
+        id: 6,
+        stack: "Signal-R",
+      },
+    ],
+  },
 ];
 
 export function getAllPortfolios() {

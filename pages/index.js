@@ -49,10 +49,14 @@ export default function Home() {
                     <td>Bootstrap</td>
                   </tr>
                   <tr>
-                    <td>HTML</td>
-                    <td>SASS</td>
-                    <td>CSS</td>
+                    <td>Typescript</td>
+                    <td>Tailwind CSS</td>
                     <td>Javascript</td>
+                    <td>SASS/SCSS</td>
+                  </tr>
+                  <tr>
+                    <td>HTML</td>
+                    <td>CSS</td>
                   </tr>
                 </tbody>
               </table>
@@ -258,6 +262,33 @@ export default function Home() {
             </div>
             <div className="experiences">
               <h2>WORK EXPERIENCES</h2>
+              <div className="jubelio">
+                <h4>JUBELIO | Frontend Developer</h4>
+                <i>Omni Channel | December 2021 - Now</i>
+                <ul>
+                  <li>
+                    Build Frontend website from Figma design into interactive
+                    website application using React Js Framework,
+                    state management using Redux, form validation using Joi, and
+                    other technologies.
+                  </li>
+                </ul>
+              </div>
+              <div className="qoin">
+                <h4>PT. Qoin Digital Indonesia | Frontend Developer</h4>
+                <i>Software House | July 2021 - December 2021</i>
+                <ul>
+                  <li>
+                    Build Frontend website from Zeplin design into interactive
+                    website application using React Js Framework,
+                    state management using Redux, form validation using Yup, and
+                    other technologies.
+                  </li>
+                  <li>
+                    Build company profile websites using Wordpress, build with Elementor and WP Bakery builder.
+                  </li>
+                </ul>
+              </div>
               <div className="dvoretsky">
                 <h4>DVORETSKY GROUP | Fullstack Developer</h4>
                 <i>Software House | February 2021 - July 2021</i>
@@ -279,7 +310,7 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-              <div className="freelance">
+              {/* <div className="freelance">
                 <h4>Self Employed | Freelance Web Developer</h4>
                 <i>January 2020 - Now</i>
                 <ul>
@@ -289,7 +320,7 @@ export default function Home() {
                     Bootstrap
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
