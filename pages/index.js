@@ -18,7 +18,7 @@ export default function Home() {
             <div className="nama">
               <h1 className="nama__profile">MUHAMMAD ILYAS</h1>
               <h3 className="pekerjaan">FULLSTACK DEVELOPER</h3>
-              <h4 className="location mt-2">Location : South Tangerang</h4>
+              <h4 className="location mt-2">Location : Jakarta Barat</h4>
             </div>
             <div className="summary">
               <h2>SUMMARY</h2>
