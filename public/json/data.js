@@ -559,7 +559,7 @@ const portfolios = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     name: "Dropshipedia",
     slug: "dropshipedia",
     thumbnail: "/images/portfolio/dropshipedia/dropshipedia.png",
